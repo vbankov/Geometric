@@ -1,0 +1,59 @@
+.appContainer{
+    width: 100%;
+    margin: auto;
+}
+.circle{
+    border-radius: 50%;
+    border: 1px solid rgba(233, 30, 99, 0.5);
+    width: 30px;
+    height: 30px;
+    background: #E91E63;
+    float: left;
+    margin: 5px;
+}
+.circle-inline{display: inline-block;margin-right: 4px;}
+.hidden{display:none}
+.flexCenter{position:relative; text-align: center;display:flex;justify-content:center;}
+
+.centerFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.rightFlex {
+    display: flex;
+    justify-content: right;
+}
+.topBar{
+	height: 50px;
+	background: red;
+}
+.btn-square, .btn-diamond{
+    color: black;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+	margin:10px auto;
+    padding: 5px 10px;
+    background: #FCE4EC;
+    border: 1px solid rgba(167, 27, 72, 0.5);
+}
+.btn-square{
+	margin-right: 5px;
+}
+.btn-diamond{
+	margin-left: 5px;
+}
+.fullWidth{ width: 100% }
+
+.btn-square:hover, .btn-diamond:hover {
+	background-color: #EF9A9A!important;
+    cursor: pointer;
+}
+.shapeTransition-appear {
+    opacity: 0.01;
+}
+
+.shapeTransition-appear.shapeTransition-appear-active {
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+}
